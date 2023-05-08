@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hotel:HotelRulesReq AuthorizedBy="Travelport"  TargetBranch="--TargetBranch--"  TraceId="--TraceId--" xmlns:hotel="http://www.travelport.com/schema/hotel_v52_0" xmlns:com="http://www.travelport.com/schema/common_v52_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+         <hotel:HotelRulesLookup RatePlanType="--RatePlanType--" Base="--Base--">
+            <hotel:HotelProperty HotelChain="--HotelChain--" HotelCode="--HotelCode--" HotelLocation="--HotelLoc--" >
+            </hotel:HotelProperty>
+            <hotel:HotelStay>
+               <hotel:CheckinDate>--To--</hotel:CheckinDate>
+               <hotel:CheckoutDate>--From--</hotel:CheckoutDate>
+            </hotel:HotelStay>
+            <hotel:HotelRulesModifiers NumberOfAdults="--NumberOfAdults--" NumberOfRooms="--NumberOfRooms--">
+               --NumberOfChildren--
+            </hotel:HotelRulesModifiers>
+         </hotel:HotelRulesLookup>
+      </hotel:HotelRulesReq>
+   </soapenv:Body>
+</soapenv:Envelope>

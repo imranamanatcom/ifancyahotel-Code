@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+     <HotelMediaLinksReq xmlns="http://www.travelport.com/schema/hotel_v52_0" TargetBranch="--TargetBranch--" TraceId="--TraceId--" AuthorizedBy="Travelport" SizeCode="E">
+  <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0" OriginApplication="uAPI" /> --ImagesLinks--
+</HotelMediaLinksReq>
+   </soapenv:Body>
+</soapenv:Envelope>
+                                

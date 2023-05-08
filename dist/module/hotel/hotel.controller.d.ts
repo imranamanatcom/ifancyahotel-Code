@@ -1,0 +1,31 @@
+import { HotelService } from "./hotel.service";
+export declare class HotelController {
+    private readonly appService;
+    constructor(appService: HotelService);
+    soapHome(body: any): Promise<any>;
+    getHotelServiceAvailability(body: any): Promise<any>;
+    getHotelServiceAvailabilityMobile(body: any): Promise<any>;
+    getMoreHotelServiceAvailabilityMobile(body: any): Promise<any>;
+    getMoreHotelServiceAvailability(body: any): Promise<any>;
+    getHotelDetailsAvailability(body: any): Promise<any>;
+    getHotelDetailsAvailabilityMobile(body: any): Promise<any>;
+    getHotelMediaLinks(body: any): Promise<any>;
+    getTermsAndCondition(body: any): Promise<any>;
+    getMultiTermsAndCondition(body: any): Promise<any>;
+    getCityAutoComplete(body: any): Promise<any>;
+    getHotelFilters(body: any): Promise<any>;
+    popularDestinations(body: any, ip: any): Promise<any>;
+    destinationsDeals(body: any, ip: any): Promise<any>;
+    blogList(body: any): Promise<any>;
+    userReviews(body: any): Promise<any>;
+    hotelMultiMediaLinks(body: any): Promise<any>;
+    userCurrentlocation(body: any, ip: any): Promise<any>;
+    userBooking(body: any): Promise<any>;
+    userBookingDetails(body: any): Promise<any>;
+    multiHotelbooking(body: any): Promise<any>;
+    multibookingcancel(body: any): Promise<any>;
+    bookingCancel(body: any): Promise<any>;
+    SearchByIataCode(body: any): Promise<unknown>;
+    SearchByfilters(body: any): Promise<unknown>;
+    Syncfilterdata(body: any): Promise<unknown>;
+}

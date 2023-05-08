@@ -1,0 +1,764 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<hotel:HotelDetailsRsp TraceId="8cd78dc5-9210-4195-becf-456hy34khf34ew4"
+			TransactionId="E9A85B150A0E7DD036D70EA77C345773" ResponseTime="1161"
+			xmlns:hotel="http://www.travelport.com/schema/hotel_v52_0"
+			xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0">
+			<hotel:RequestedHotelDetails>
+				<hotel:HotelProperty HotelChain="RK" HotelCode="F1170" HotelLocation="LON"
+					Name="HARD ROCK HOTEL LONDON">
+					<hotel:PropertyAddress>
+						<hotel:Address>1 Great Cumberland Place </hotel:Address>
+						<hotel:Address>London ENG W1H 7DL GB </hotel:Address>
+					</hotel:PropertyAddress>
+					<common_v52_0:PhoneNumber Type="Business" Number="44-207 5-" />
+					<common_v52_0:PhoneNumber Type="Fax" Number="44-20-77239332" />
+					<common_v52_0:Distance Units="MI" Value="10" Direction="W" />
+				</hotel:HotelProperty>
+				<hotel:HotelDetailItem Name="CheckInTime">
+					<hotel:Text>3PM</hotel:Text>
+				</hotel:HotelDetailItem>
+				<hotel:HotelDetailItem Name="CheckOutTime">
+					<hotel:Text>11AM</hotel:Text>
+				</hotel:HotelDetailItem>
+				<hotel:HotelRateDetail RatePlanType="C1DRA3" Base="GBP263.00" Total="GBP263.00"
+					ApproximateTotal="USD326.30" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Classic Double Hypnos Bed 18-21 Sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Prepay And Save 15pct Tax Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP263.00"
+						ApproximateBase="USD326.30" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="33" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="A1KRA3" Base="GBP331.00" Total="GBP331.00"
+					ApproximateTotal="USD410.66" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Deluxe King Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Prepay And Save 15pct Tax Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP331.00"
+						ApproximateBase="USD410.66" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P1DRA3" Base="GBP374.00" Total="GBP374.00"
+					ApproximateTotal="USD464.01" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Queen Bed 16-25sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access -dedicated Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Prepay And Save 15pct Tax Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP374.00"
+						ApproximateBase="USD464.01" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="33" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P1KRA3" Base="GBP391.00" Total="GBP391.00"
+					ApproximateTotal="USD485.11" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty King Bed 25 30sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Prepay And Save 15pct Tax Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP391.00"
+						ApproximateBase="USD485.11" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P12RA3" Base="GBP561.00" Total="GBP561.00"
+					ApproximateTotal="USD696.02" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Suite Gold King Bed -45sqm Vip</hotel:Text>
+						<hotel:Text>Checkin Lounge Acces -dedicated Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Prepay And Save 15pct Tax Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP561.00"
+						ApproximateBase="USD696.02" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P11RA3" Base="GBP476.00" Total="GBP476.00"
+					ApproximateTotal="USD590.57" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Suite King Bed 30sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access With Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Prepay And Save 15pct Tax Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP476.00"
+						ApproximateBase="USD590.57" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="B1KRA3" Base="GBP297.00" Total="GBP297.00"
+					ApproximateTotal="USD368.48" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Superior King Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Prepay And Save 15pct Tax Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP297.00"
+						ApproximateBase="USD368.48" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="B2TRA3" Base="GBP297.00" Total="GBP297.00"
+					ApproximateTotal="USD368.48" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Superior Twin Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Prepay And Save 15pct Tax Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP297.00"
+						ApproximateBase="USD368.48" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="113" Quantity="2" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="C1DRA2" Base="GBP288.15" Total="GBP288.15"
+					ApproximateTotal="USD357.50" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Classic Double Hypnos Bed 18-21 Sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Toast Jam -prepay Save</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP288.15"
+						ApproximateBase="USD357.50" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="33" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="A1KRA2" Base="GBP356.15" Total="GBP356.15"
+					ApproximateTotal="USD441.87" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Deluxe King Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Toast Jam -prepay Save</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP356.15"
+						ApproximateBase="USD441.87" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P1DRA2" Base="GBP398.65" Total="GBP398.65"
+					ApproximateTotal="USD494.60" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Queen Bed 16-25sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access -dedicated Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Toast Jam -prepay Save</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP398.65"
+						ApproximateBase="USD494.60" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="33" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P1KRA2" Base="GBP415.65" Total="GBP415.65"
+					ApproximateTotal="USD515.69" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty King Bed 25 30sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Toast Jam -prepay Save</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP415.65"
+						ApproximateBase="USD515.69" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P12RA2" Base="GBP585.65" Total="GBP585.65"
+					ApproximateTotal="USD726.61" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Suite Gold King Bed -45sqm Vip</hotel:Text>
+						<hotel:Text>Checkin Lounge Acces -dedicated Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Toast Jam -prepay Save</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP585.65"
+						ApproximateBase="USD726.61" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P11RA2" Base="GBP500.65" Total="GBP500.65"
+					ApproximateTotal="USD621.15" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Suite King Bed 30sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access With Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Toast Jam -prepay Save</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP500.65"
+						ApproximateBase="USD621.15" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="B1KRA2" Base="GBP322.15" Total="GBP322.15"
+					ApproximateTotal="USD399.68" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Superior King Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Toast Jam -prepay Save</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP322.15"
+						ApproximateBase="USD399.68" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="B2TRA2" Base="GBP322.15" Total="GBP322.15"
+					ApproximateTotal="USD399.68" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Superior Twin Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Toast Jam -prepay Save</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP322.15"
+						ApproximateBase="USD399.68" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="113" Quantity="2" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="C1DRA1" Base="GBP309.00" Total="GBP309.00"
+					ApproximateTotal="USD383.37" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Classic Double Hypnos Bed 18-21 Sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Flexible Rate Taxes Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP309.00"
+						ApproximateBase="USD383.37" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="33" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="A1KRA1" Base="GBP389.00" Total="GBP389.00"
+					ApproximateTotal="USD482.62" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Deluxe King Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Flexible Rate Taxes Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP389.00"
+						ApproximateBase="USD482.62" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P1DRA1" Base="GBP439.00" Total="GBP439.00"
+					ApproximateTotal="USD544.66" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Queen Bed 16-25sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access -dedicated Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Flexible Rate Taxes Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP439.00"
+						ApproximateBase="USD544.66" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="33" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P1KRA1" Base="GBP459.00" Total="GBP459.00"
+					ApproximateTotal="USD569.47" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty King Bed 25 30sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Flexible Rate Taxes Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP459.00"
+						ApproximateBase="USD569.47" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P12RA1" Base="GBP659.00" Total="GBP659.00"
+					ApproximateTotal="USD817.61" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Suite Gold King Bed -45sqm Vip</hotel:Text>
+						<hotel:Text>Checkin Lounge Acces -dedicated Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Flexible Rate Taxes Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP659.00"
+						ApproximateBase="USD817.61" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P11RA1" Base="GBP559.00" Total="GBP559.00"
+					ApproximateTotal="USD693.54" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Suite King Bed 30sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access With Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Flexible Rate Taxes Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP559.00"
+						ApproximateBase="USD693.54" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="B1KRA1" Base="GBP349.00" Total="GBP349.00"
+					ApproximateTotal="USD433.00" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Superior King Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Flexible Rate Taxes Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP349.00"
+						ApproximateBase="USD433.00" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="B2TRA1" Base="GBP349.00" Total="GBP349.00"
+					ApproximateTotal="USD433.00" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Superior Twin Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Flexible Rate Taxes Inc</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP349.00"
+						ApproximateBase="USD433.00" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="113" Quantity="2" />
+						<hotel:MealPlans Breakfast="unknown" Lunch="unknown" Dinner="unknown" />
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="C1DRA4" Base="GBP339.00" Total="GBP339.00"
+					ApproximateTotal="USD420.59" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Classic Double Hypnos Bed 18-21 Sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Bed And Breakfast -flexible</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP339.00"
+						ApproximateBase="USD420.59" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="33" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="A1KRA4" Base="GBP419.00" Total="GBP419.00"
+					ApproximateTotal="USD519.85" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Deluxe King Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Bed And Breakfast -flexible</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP419.00"
+						ApproximateBase="USD519.85" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P1DRA4" Base="GBP469.00" Total="GBP469.00"
+					ApproximateTotal="USD581.88" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Queen Bed 16-25sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access -dedicated Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Bed And Breakfast -flexible</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP469.00"
+						ApproximateBase="USD581.88" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="33" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P1KRA4" Base="GBP489.00" Total="GBP489.00"
+					ApproximateTotal="USD606.69" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty King Bed 25 30sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Bed And Breakfast -flexible</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP489.00"
+						ApproximateBase="USD606.69" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P12RA4" Base="GBP689.00" Total="GBP689.00"
+					ApproximateTotal="USD854.83" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Suite Gold King Bed -45sqm Vip</hotel:Text>
+						<hotel:Text>Checkin Lounge Acces -dedicated Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Bed And Breakfast -flexible</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP689.00"
+						ApproximateBase="USD854.83" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="P11RA4" Base="GBP589.00" Total="GBP589.00"
+					ApproximateTotal="USD730.76" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Rock Royalty Suite King Bed 30sqm Vip Checkin</hotel:Text>
+						<hotel:Text>Lounge Access With Concierge</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Bed And Breakfast -flexible</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP589.00"
+						ApproximateBase="USD730.76" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="B1KRA4" Base="GBP379.00" Total="GBP379.00"
+					ApproximateTotal="USD470.22" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Superior King Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Bed And Breakfast -flexible</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP379.00"
+						ApproximateBase="USD470.22" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="58" Quantity="1" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelRateDetail RatePlanType="B2TRA4" Base="GBP379.00" Total="GBP379.00"
+					ApproximateTotal="USD470.22" RateCategory="13" RateChangeIndicator="false"
+					ExtraFeesIncluded="false">
+					<hotel:RoomRateDescription Name="Room">
+						<hotel:Text>Superior Twin Hypnos Bed 21-27sqm</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:RoomRateDescription Name="Rate">
+						<hotel:Text>Bed And Breakfast -flexible</hotel:Text>
+					</hotel:RoomRateDescription>
+					<hotel:HotelRateByDate EffectiveDate="2023-04-01" ExpireDate="2023-04-02" Base="GBP379.00"
+						ApproximateBase="USD470.22" />
+					<hotel:Commission Indicator="true" Percent="8" />
+					<hotel:RateMatchIndicator Type="RoomCount" Status="Available" />
+					<hotel:RateMatchIndicator Type="AdultCount" Status="Available" Value="2" />
+					<hotel:CancelInfo NonRefundableStayIndicator="unknown"
+						CancelDeadline="2023-04-01T14:00:00.000+01:00" />
+					<hotel:GuaranteeInfo CredentialsRequired="false" GuaranteeType="Guarantee" />
+					<hotel:Inclusions SmokingRoomIndicator="false">
+						<hotel:BedTypes Code="113" Quantity="2" />
+						<hotel:MealPlans Breakfast="true" Lunch="false" Dinner="false">
+							<hotel:MealPlan Code="7" />
+						</hotel:MealPlans>
+					</hotel:Inclusions>
+				</hotel:HotelRateDetail>
+				<hotel:HotelType SourceLink="true" />
+			</hotel:RequestedHotelDetails>
+		</hotel:HotelDetailsRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

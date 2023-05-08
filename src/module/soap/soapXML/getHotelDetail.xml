@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:common_v50_0="http://www.travelport.com/schema/common_v50_0">
+   <soapenv:Body>
+      <hotel:HotelDetailsReq AuthorizedBy="SUSIL" TargetBranch="--TargetBranch--" TraceId="PP_1P_001" xmlns:hotel="http://www.travelport.com/schema/hotel_v50_0" xmlns:com="http://www.travelport.com/schema/common_v50_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+       <hotel:HotelProperty HotelChain="--HotelChain--" HotelCode="--HotelCode--" HotelLocation="--HotelLoc--" Name="--HotelName--" VendorLocationKey="--VendorLocationKey--" HotelTransportation="--HotelTransportation--" ReserveRequirement="--ReserveRequirement--" ParticipationLevel="--ParticipationLevel--" Availability="--Availability--">
+               <hotel:PropertyAddress>
+                  <hotel:Address>--Address--</hotel:Address>
+               </hotel:PropertyAddress>
+               <common_v50_0:Distance Units="--Units--" Value="--Value--" Direction="--Direction--"/>
+               <hotel:HotelRating RatingProvider="--RatingProvider--">
+                  <hotel:Rating>0</hotel:Rating>
+               </hotel:HotelRating>
+            </hotel:HotelProperty>
+         <hotel:HotelDetailsModifiers PreferredCurrency="--Base--" RateRuleDetail="--RateRuleDetail--" NumberOfAdults="--Adults--" NumberOfRooms="--Rooms--">
+            <com:PermittedProviders>
+               <com:Provider Code="--Provider--"/>
+            </com:PermittedProviders>
+            <hotel:HotelStay>
+               <hotel:CheckinDate>--To--</hotel:CheckinDate>
+               <hotel:CheckoutDate>--From--</hotel:CheckoutDate>
+            </hotel:HotelStay>
+         </hotel:HotelDetailsModifiers>
+      </hotel:HotelDetailsReq>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <HotelSearchAvailabilityReq xmlns="http://www.travelport.com/schema/hotel_v52_0" TraceId="--TraceId--" AuthorizedBy="Travelport" TargetBranch="--TargetBranch--">
+      <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0" OriginApplication="uAPI" />
+      <HotelSearchLocation>
+        <CoordinateLocation latitude="--latitude--" longitude="--longitude--" xmlns="http://www.travelport.com/schema/common_v52_0"></CoordinateLocation>
+      </HotelSearchLocation>
+      <HotelSearchModifiers PreferredCurrency="--Base--" NumberOfAdults="--Adults--" NumberOfRooms="--Rooms--" AvailableHotelsOnly="--AvailableHotelsOnly--" ReturnPropertyDescription="true" ReturnAmenities="true">
+        <PermittedProviders xmlns="http://www.travelport.com/schema/common_v52_0">
+          <Provider Code="--Provider--" />
+        </PermittedProviders>
+        --HotelRatingRange--
+        --NumberOfChildren--
+      </HotelSearchModifiers>
+      <HotelStay>
+        <CheckinDate>--To--</CheckinDate>
+        <CheckoutDate>--From--</CheckoutDate>
+      </HotelStay>
+    </HotelSearchAvailabilityReq>
+  </soapenv:Body>
+</soapenv:Envelope>

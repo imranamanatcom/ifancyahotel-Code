@@ -1,0 +1,36 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://www.travelport.com/schema/common_v52_0">
+    <soapenv:Body>
+        <univ:HotelCreateReservationReq RetrieveProviderReservationDetails="true" ProviderCode="1G" AuthorizedBy="Travelport" TargetBranch="--TargetBranch--" TraceId="--TraceId--" xmlns:univ="http://www.travelport.com/schema/universal_v52_0" xmlns:hotel="http://www.travelport.com/schema/hotel_v52_0">
+            <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+            <com:BookingTraveler TravelerType="--TravelerType--">
+                <com:BookingTravelerName Last="--Last--" First="--First--"/>
+                <com:PhoneNumber Type="--Type--" Number="--Number--" Location="--Location--" CountryCode="--CountryCode--" AreaCode="--AreaCode--"/>
+            </com:BookingTraveler>
+            <hotel:HotelRateDetail RatePlanType="--RatePlanType--" Base="--Base--" Total="--Total--" RateChangeIndicator="--RateChangeIndicator--" ExtraFeesIncluded="--ExtraFeesIncluded--">
+                <hotel:RoomRateDescription Name="--Name--">
+                    <hotel:Text>--Text--</hotel:Text>
+                </hotel:RoomRateDescription>
+                <hotel:HotelRateByDate EffectiveDate="--EffectiveDate--" ExpireDate="--ExpireDate--" Base="--HotelRateByDateBase--"/>
+                <hotel:Commission Indicator="--Indicator--"/>
+                <hotel:CancelInfo NonRefundableStayIndicator="--NonRefundableStayIndicator--"/>
+                <hotel:GuaranteeInfo GuaranteeType="--GuaranteeType--"/>
+                <hotel:Inclusions SmokingRoomIndicator="--SmokingRoomIndicator--">
+                    <hotel:BedTypes Code="--Code--"/>
+                    <hotel:MealPlans Breakfast="--Breakfast--" Lunch="--Lunch--" Dinner="--Dinner--"/>
+                </hotel:Inclusions>
+            </hotel:HotelRateDetail>
+            <hotel:HotelProperty HotelChain="--HotelChain--" HotelCode="--HotelCode--" HotelLocation="--HotelLocation--" Name="--HotelPropertyName--" ParticipationLevel="--ParticipationLevel--"/>
+            <hotel:HotelStay>
+                <hotel:CheckinDate>--CheckinDate--</hotel:CheckinDate>
+                <hotel:CheckoutDate>--CheckoutDate--</hotel:CheckoutDate>
+            </hotel:HotelStay>
+            <com:Guarantee Type="--GuaranteeType--" Key="--GuaranteeKey--">
+                <com:CreditCard Type="--CreditCardType--" ExpDate="--CreditCardExpDate--" Number="--CreditCardNumber--"/>
+            </com:Guarantee>
+            <hotel:GuestInformation NumberOfRooms="--NumberOfRooms--">
+                <hotel:NumberOfAdults>--NumberOfAdults--</hotel:NumberOfAdults>
+                --NumberOfChildren--
+            </hotel:GuestInformation>
+        </univ:HotelCreateReservationReq>
+    </soapenv:Body>
+</soapenv:Envelope>

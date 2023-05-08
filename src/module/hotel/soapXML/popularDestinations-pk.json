@@ -1,0 +1,32 @@
+[
+  {
+    "city": "Lahore",
+    "properties": "43 properties",
+    "hash": "12341234324123413342124"
+  },
+  {
+    "city": "Islamabad",
+    "properties": "3 properties",
+    "hash": "3463456345616846874684416"
+  },
+  {
+    "city": "Karachi",
+    "properties": "13 properties",
+    "hash": "987984654653121321564654"
+  },
+  {
+    "city": "Murree",
+    "properties": "24 properties",
+    "hash": "1686468974651683516543543545"
+  },
+  {
+    "city": "Rawalpindi",
+    "properties": "50 properties",
+    "hash": "9841868463164546353153151315"
+  },
+  {
+    "city": "Faisalabad",
+    "properties": "64 properties",
+    "hash": "284683469841516351545315331"
+  }
+]

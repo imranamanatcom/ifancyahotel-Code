@@ -1,0 +1,27 @@
+declare const STATUSCODE: {
+    SUCCESS: number;
+    INVALID_PARAMETERS: number;
+    NO_CONTENT: number;
+    REQUIRED_FIELDS: number;
+    SERVER_ERROR: number;
+    CREATED: number;
+    ACCEPTED: number;
+    NON_AUTHORITATIVE_INFORMATION: number;
+    RESET_CONTENT: number;
+    PARTIAL_CONTENT: number;
+    MOVED_PERMANENTLY: number;
+    BAD_REQUEST: number;
+    UNAUTHORIZED: number;
+    FORBIDDEN: number;
+    METHOD_NOT_ALLOWED: number;
+    PRECONDITION_FAILED: number;
+    UPGRADE_REQUIRED: number;
+    PRECONDITION_REQUIRED: number;
+    TOO_MANY_REQUESTS: number;
+    INTERNAL_SERVER_ERROR: number;
+    NOT_IMPLEMENTED: number;
+    FOUND: number;
+    DOCUMENT_NOT_FOUND: number;
+    CONFLICT: number;
+};
+export default STATUSCODE;

@@ -1,0 +1,7 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <univ:HotelCancelReq AuthorizedBy="Travelport" TargetBranch="--TargetBranch--" TraceId="--TraceId--" ProviderCode="1G" ProviderLocatorCode="--LocatorCode--" Version="0" xmlns:univ="http://www.travelport.com/schema/universal_v52_0" xmlns:hot="http://www.travelport.com/schema/hotel_v52_0" xmlns:com="http://www.travelport.com/schema/common_v52_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+      </univ:HotelCancelReq>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,39 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<universal:HotelCancelRsp TraceId="8cd78dc5-9210-4195-becf-121259edd1889"
+			TransactionId="A77F26FE0A0E7DEA2510DA1858DF4924" ResponseTime="797"
+			xmlns:universal="http://www.travelport.com/schema/universal_v52_0"
+			xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0">
+			<universal:UniversalRecord LocatorCode="UC0Y0R" Version="1" Status="Active">
+				<common_v52_0:BookingTraveler Key="of6+DWdDuDKAGiF6vNAAAA==" TravelerType="ADT">
+					<common_v52_0:BookingTravelerName First="Ali" Last="Sohaib" />
+					<common_v52_0:PhoneNumber Key="of6+DWdDuDKAHiF6vNAAAA==" Type="Home" Location="LRH" CountryCode="92"
+						Number=" 923334106119" AreaCode="84586">
+						<common_v52_0:ProviderReservationInfoRef Key="of6+DWdDuDKAV0q6vNAAAA==" />
+					</common_v52_0:PhoneNumber>
+				</common_v52_0:BookingTraveler>
+				<common_v52_0:OSI Key="of6+DWdDuDKA50q6vNAAAA==" Carrier="1G" Text="QQ56457ARR01APR CXL:NONREFUNDABLE"
+					ProviderReservationInfoRef="of6+DWdDuDKAV0q6vNAAAA==" />
+				<universal:ProviderReservationInfo Key="of6+DWdDuDKAV0q6vNAAAA==" ProviderCode="1G" LocatorCode="3FZ5KJ"
+					CreateDate="2023-01-11T11:54:48.820+00:00" ModifiedDate="2023-01-11T11:54:49.103+00:00"
+					HostCreateDate="2023-01-11" OwningPCC="87K4" />
+				<common_v52_0:GeneralRemark Key="XID6DWq3nDKA4BYGQRAAAA==" SupplierType="Hotel" ProviderCode="1G"
+					ProviderReservationInfoRef="of6+DWdDuDKAV0q6vNAAAA==" ElStat="A">
+					<common_v52_0:RemarkData>Hotel Chain: QQ Check In Date: 2023-04-01 Booking Confirmation Number:
+						3330868600 Cancel Confirmation Num: LATECANCEL</common_v52_0:RemarkData>
+				</common_v52_0:GeneralRemark>
+				<common_v52_0:GeneralRemark Key="XID6DWq3nDKA5BYGQRAAAA==" SupplierType="Hotel" ProviderCode="1G"
+					ProviderReservationInfoRef="of6+DWdDuDKAV0q6vNAAAA==" ElStat="A">
+					<common_v52_0:RemarkData>Hotel Chain: QQ Check In Date: 2023-04-01 Booking Confirmation Number:
+						3325730038 Cancel Confirmation Num: LATECANCEL</common_v52_0:RemarkData>
+				</common_v52_0:GeneralRemark>
+				<common_v52_0:AgencyInfo>
+					<common_v52_0:AgentAction ActionType="Created" AgentCode="uAPI1923620122-f5ee7bda"
+						BranchCode="P4090687" AgencyCode="S4090680" EventTime="2023-01-11T11:54:45.572+00:00" />
+					<common_v52_0:AgentAction ActionType="Modified" AgentCode="uAPI1923620122-f5ee7bda"
+						BranchCode="P4090687" AgencyCode="S4090680" EventTime="2023-01-12T19:40:06.348+00:00" />
+				</common_v52_0:AgencyInfo>
+			</universal:UniversalRecord>
+		</universal:HotelCancelRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

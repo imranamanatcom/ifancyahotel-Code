@@ -1,0 +1,575 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<hotel:HotelMediaLinksRsp TraceId="8cd78dc5-9210-4195-becf-456hy34khf34ew3"
+			TransactionId="E9A8F6690A0E7D0DA23F5CEE98B76AB6" ResponseTime="317"
+			xmlns:hotel="http://www.travelport.com/schema/hotel_v52_0"
+			xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0">
+			<hotel:HotelPropertyWithMediaItems>
+				<hotel:HotelProperty HotelChain="RK" HotelCode="F1170" />
+				<common_v52_0:MediaItem caption="Exterior Building" height="167" width="250" type="EXT"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/217/HRH_LONDON_EXTERIOR_MG_9885_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Exterior Building" height="233" width="350" type="EXT"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/217/HRH_LONDON_EXTERIOR_MG_9885_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Exterior Building" height="320" width="480" type="EXT"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/217/HRH_LONDON_EXTERIOR_MG_9885_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Exterior Building" height="320" width="480" type="EXT"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/217/HRH_LONDON_EXTERIOR_MG_9885_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="GMT BAR and CAFE" height="167" width="250" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/266/HRH_LONDON_GMT_MG_9802_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="GMT BAR and CAFE" height="233" width="350" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/266/HRH_LONDON_GMT_MG_9802_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="GMT BAR and CAFE" height="320" width="480" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/266/HRH_LONDON_GMT_MG_9802_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="GMT BAR and CAFE" height="320" width="480" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/266/HRH_LONDON_GMT_MG_9802_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="GMT BAR" height="167" width="250" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/348/HRH_LONDON_GMT_MG_9976_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="GMT BAR" height="233" width="350" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/348/HRH_LONDON_GMT_MG_9976_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="GMT BAR" height="320" width="480" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/348/HRH_LONDON_GMT_MG_9976_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="GMT BAR" height="320" width="480" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/348/HRH_LONDON_GMT_MG_9976_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Caf??" height="167" width="250" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/32/HRH_LONDON_CAFE_MG_9753_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Caf??" height="233" width="350" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/32/HRH_LONDON_CAFE_MG_9753_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Caf??" height="320" width="480" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/32/HRH_LONDON_CAFE_MG_9753_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Caf??" height="320" width="480" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/32/HRH_LONDON_CAFE_MG_9753_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Caf??" height="167" width="250" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/58/HRH_LONDON_CAFE_MG_9781_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Caf??" height="233" width="350" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/58/HRH_LONDON_CAFE_MG_9781_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Caf??" height="320" width="480" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/58/HRH_LONDON_CAFE_MG_9781_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Caf??" height="320" width="480" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/58/HRH_LONDON_CAFE_MG_9781_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Caf??" height="167" width="250" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/86/HRH_LONDON_CAFE_MG_9766_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Caf??" height="233" width="350" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/86/HRH_LONDON_CAFE_MG_9766_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Caf??" height="320" width="480" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/86/HRH_LONDON_CAFE_MG_9766_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Caf??" height="320" width="480" type="REST"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/86/HRH_LONDON_CAFE_MG_9766_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Lobby" height="167" width="250" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/414/HRH_LONDON_LOBBY_MG_0074_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Lobby" height="233" width="350" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/414/HRH_LONDON_LOBBY_MG_0074_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Lobby" height="320" width="480" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/414/HRH_LONDON_LOBBY_MG_0074_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Lobby" height="320" width="480" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/414/HRH_LONDON_LOBBY_MG_0074_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="ROCK ROYALTY Lounge" height="167" width="250" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/513/HRH_LONDON_ROCK_ROYALTY_MG_0021_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="ROCK ROYALTY Lounge" height="233" width="350" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/513/HRH_LONDON_ROCK_ROYALTY_MG_0021_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="ROCK ROYALTY Lounge" height="320" width="480" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/513/HRH_LONDON_ROCK_ROYALTY_MG_0021_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="ROCK ROYALTY Lounge" height="320" width="480" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/513/HRH_LONDON_ROCK_ROYALTY_MG_0021_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Rock Royalty Lounge" height="167" width="250" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/537/HRH_LONDON_ROCK_ROYALTY_MG_0034_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Rock Royalty Lounge" height="233" width="350" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/537/HRH_LONDON_ROCK_ROYALTY_MG_0034_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Rock Royalty Lounge" height="320" width="480" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/537/HRH_LONDON_ROCK_ROYALTY_MG_0034_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Rock Royalty Lounge" height="320" width="480" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/537/HRH_LONDON_ROCK_ROYALTY_MG_0034_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Rock Retail Shop" height="167" width="250" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/590/HRH_LONDON_ROCK-SHOP_MG_9959_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Rock Retail Shop" height="233" width="350" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/590/HRH_LONDON_ROCK-SHOP_MG_9959_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Rock Retail Shop" height="320" width="480" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/590/HRH_LONDON_ROCK-SHOP_MG_9959_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Rock Retail Shop" height="320" width="480" type="LOBBY"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/590/HRH_LONDON_ROCK-SHOP_MG_9959_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Rock Retail Shop" height="167" width="250" type="OTHER"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/609/HRH_LONDON_ROCK-SHOP_MG_9964_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Rock Retail Shop" height="233" width="350" type="OTHER"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/609/HRH_LONDON_ROCK-SHOP_MG_9964_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Rock Retail Shop" height="320" width="480" type="OTHER"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/609/HRH_LONDON_ROCK-SHOP_MG_9964_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Rock Retail Shop" height="320" width="480" type="OTHER"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/117/48/609/HRH_LONDON_ROCK-SHOP_MG_9964_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Classic Double" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/535/HRHLON_Classic_Double_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Classic Double" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/535/HRHLON_Classic_Double_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Classic Double" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/535/HRHLON_Classic_Double_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Classic Double" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/535/HRHLON_Classic_Double_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption=" Classic Double Bathroom" height="167" width="250" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/553/HRHLON_Classic_Double_-_Bathroom_(3)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption=" Classic Double Bathroom" height="233" width="350" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/553/HRHLON_Classic_Double_-_Bathroom_(3)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption=" Classic Double Bathroom" height="320" width="480" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/553/HRHLON_Classic_Double_-_Bathroom_(3)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption=" Classic Double Bathroom" height="320" width="480" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/553/HRHLON_Classic_Double_-_Bathroom_(3)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Double" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/582/HRHLON_Classic_Double_(2)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Double" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/582/HRHLON_Classic_Double_(2)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Double" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/582/HRHLON_Classic_Double_(2)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Double" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/582/HRHLON_Classic_Double_(2)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Classic Single" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/590/HRHLON_-_Classic_Single_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Classic Single" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/590/HRHLON_-_Classic_Single_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Classic Single" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/590/HRHLON_-_Classic_Single_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Classic Single" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/590/HRHLON_-_Classic_Single_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Classic Twin" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/606/HRHLON_Classic_Twin_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Classic Twin" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/606/HRHLON_Classic_Twin_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Classic Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/606/HRHLON_Classic_Twin_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Classic Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/606/HRHLON_Classic_Twin_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Twin" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/618/HRHLON_Classic_Twin_(2)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Twin" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/618/HRHLON_Classic_Twin_(2)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/618/HRHLON_Classic_Twin_(2)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/618/HRHLON_Classic_Twin_(2)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Double Accessible Feature Bathroom" height="167"
+					width="250" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/598/HRHLON_Classic_Double_-_Accessible_Feature_Bathroom_(5)___E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Double Accessible Feature Bathroom" height="233"
+					width="350" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/598/HRHLON_Classic_Double_-_Accessible_Feature_Bathroom_(5)___H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Double Accessible Feature Bathroom" height="320"
+					width="480" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/598/HRHLON_Classic_Double_-_Accessible_Feature_Bathroom_(5)___J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Classic Double Accessible Feature Bathroom" height="320"
+					width="480" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/598/HRHLON_Classic_Double_-_Accessible_Feature_Bathroom_(5)___J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Family Room" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/288/HRHLON_Superior_Family_Room___6019_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Family Room" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/288/HRHLON_Superior_Family_Room___6019_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Family Room" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/288/HRHLON_Superior_Family_Room___6019_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Family Room" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/288/HRHLON_Superior_Family_Room___6019_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Superior King" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/298/HRHLON_Superior_King_(4)__5089_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Superior King" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/298/HRHLON_Superior_King_(4)__5089_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Superior King" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/298/HRHLON_Superior_King_(4)__5089_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Superior King" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/298/HRHLON_Superior_King_(4)__5089_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/308/HRHLON_Superior_King_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/308/HRHLON_Superior_King_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/308/HRHLON_Superior_King_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/308/HRHLON_Superior_King_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Superior King Bathroom" height="167" width="250" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/316/HRHLON_Superior_King_-_Bathroom_(6)__5075_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Superior King Bathroom" height="233" width="350" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/316/HRHLON_Superior_King_-_Bathroom_(6)__5075_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Superior King Bathroom" height="320" width="480" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/316/HRHLON_Superior_King_-_Bathroom_(6)__5075_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Superior King Bathroom" height="320" width="480" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/316/HRHLON_Superior_King_-_Bathroom_(6)__5075_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/358/HRHLON_Superior_King_(5)__5089_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/358/HRHLON_Superior_King_(5)__5089_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/358/HRHLON_Superior_King_(5)__5089_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/358/HRHLON_Superior_King_(5)__5089_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Superior King" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/369/HRHLON_Superior_King_(2)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Superior King" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/369/HRHLON_Superior_King_(2)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Superior King" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/369/HRHLON_Superior_King_(2)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Superior King" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/369/HRHLON_Superior_King_(2)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Superior Twin" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/386/HRHLON_Superior_Twin__5049_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Superior Twin" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/386/HRHLON_Superior_Twin__5049_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Superior Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/386/HRHLON_Superior_Twin__5049_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Superior Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/386/HRHLON_Superior_Twin__5049_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Twin" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/394/HRHLON_Superior_Twin_(5)__5077_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Twin" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/394/HRHLON_Superior_Twin_(5)__5077_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/394/HRHLON_Superior_Twin_(5)__5077_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/394/HRHLON_Superior_Twin_(5)__5077_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Twin" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/404/HRHLON_Superior_Twin_(2)__5077_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Twin" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/404/HRHLON_Superior_Twin_(2)__5077_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/404/HRHLON_Superior_Twin_(2)__5077_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/404/HRHLON_Superior_Twin_(2)__5077_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Superior Twin" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/426/HRHLON_Superior_Twin_(3)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="Superior Twin" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/426/HRHLON_Superior_Twin_(3)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="Superior Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/426/HRHLON_Superior_Twin_(3)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="Superior Twin" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/426/HRHLON_Superior_Twin_(3)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King Bathroom" height="167" width="250"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/276/HRHLON_Superior_King_-_Bathroom_(8)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King Bathroom" height="233" width="350"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/276/HRHLON_Superior_King_-_Bathroom_(8)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King Bathroom" height="320" width="480"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/276/HRHLON_Superior_King_-_Bathroom_(8)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Superior King Bathroom" height="320" width="480"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/276/HRHLON_Superior_King_-_Bathroom_(8)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Family Room Bathroom" height="167" width="250"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/328/HRHLON_Superior_Family_Room_-_Bathroom_(2)__6019_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Family Room Bathroom" height="233" width="350"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/328/HRHLON_Superior_Family_Room_-_Bathroom_(2)__6019_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Family Room Bathroom" height="320" width="480"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/328/HRHLON_Superior_Family_Room_-_Bathroom_(2)__6019_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Superior Family Room Bathroom" height="320" width="480"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/328/HRHLON_Superior_Family_Room_-_Bathroom_(2)__6019_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/916/HRHLON_Deluxe_King_Park_View_(2)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/916/HRHLON_Deluxe_King_Park_View_(2)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/916/HRHLON_Deluxe_King_Park_View_(2)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/916/HRHLON_Deluxe_King_Park_View_(2)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/897/HRHLON_Deluxe_King_Park_View_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/897/HRHLON_Deluxe_King_Park_View_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/897/HRHLON_Deluxe_King_Park_View_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/897/HRHLON_Deluxe_King_Park_View_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Double" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/88/HRHLON_Rock_Royalty_Double_(2)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Double" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/88/HRHLON_Rock_Royalty_Double_(2)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Double" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/88/HRHLON_Rock_Royalty_Double_(2)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Double" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/88/HRHLON_Rock_Royalty_Double_(2)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/876/HRHLON_Deluxe_King_Park_View_(3)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/876/HRHLON_Deluxe_King_Park_View_(3)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/876/HRHLON_Deluxe_King_Park_View_(3)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Deluxe King Park View" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/673/876/HRHLON_Deluxe_King_Park_View_(3)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite" height="167" width="250" type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/220/HRHLON_Rock_Royalty_Jr_Suite_(2)__3015_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite" height="233" width="350" type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/220/HRHLON_Rock_Royalty_Jr_Suite_(2)__3015_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite" height="320" width="480" type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/220/HRHLON_Rock_Royalty_Jr_Suite_(2)__3015_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite" height="320" width="480" type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/220/HRHLON_Rock_Royalty_Jr_Suite_(2)__3015_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="167" width="250"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/138/HRHLON_Rock_Royalty_Jr_Gold_Suite_(3)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="233" width="350"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/138/HRHLON_Rock_Royalty_Jr_Gold_Suite_(3)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="320" width="480"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/138/HRHLON_Rock_Royalty_Jr_Gold_Suite_(3)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="320" width="480"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/138/HRHLON_Rock_Royalty_Jr_Gold_Suite_(3)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="167" width="250"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/152/HRHLON_Rock_Royalty_Jr_Gold_Suite_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="233" width="350"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/152/HRHLON_Rock_Royalty_Jr_Gold_Suite_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="320" width="480"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/152/HRHLON_Rock_Royalty_Jr_Gold_Suite_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="320" width="480"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/152/HRHLON_Rock_Royalty_Jr_Gold_Suite_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="167" width="250"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/164/HRHLON_Rock_Royalty_Jr_Gold_Suite_(2)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="233" width="350"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/164/HRHLON_Rock_Royalty_Jr_Gold_Suite_(2)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="320" width="480"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/164/HRHLON_Rock_Royalty_Jr_Gold_Suite_(2)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite" height="320" width="480"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/164/HRHLON_Rock_Royalty_Jr_Gold_Suite_(2)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite Bathroom" height="167" width="250"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/176/HRHLON_Rock_Royalty_Jr_Gold_Suite_-_Bathroom_(4)_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite Bathroom" height="233" width="350"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/176/HRHLON_Rock_Royalty_Jr_Gold_Suite_-_Bathroom_(4)_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite Bathroom" height="320" width="480"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/176/HRHLON_Rock_Royalty_Jr_Gold_Suite_-_Bathroom_(4)_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Gold Suite Bathroom" height="320" width="480"
+					type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/176/HRHLON_Rock_Royalty_Jr_Gold_Suite_-_Bathroom_(4)_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite Closet" height="167" width="250"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/196/HRHLON_Rock_Royalty_Jr_Suite_-_Closet_(4)__3015_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite Closet" height="233" width="350"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/196/HRHLON_Rock_Royalty_Jr_Suite_-_Closet_(4)__3015_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite Closet" height="320" width="480"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/196/HRHLON_Rock_Royalty_Jr_Suite_-_Closet_(4)__3015_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite Closet" height="320" width="480"
+					type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/196/HRHLON_Rock_Royalty_Jr_Suite_-_Closet_(4)__3015_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty King" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/254/HRHLON_Rock_Royalty_King_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty King" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/254/HRHLON_Rock_Royalty_King_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty King" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/254/HRHLON_Rock_Royalty_King_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty King" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/254/HRHLON_Rock_Royalty_King_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite" height="167" width="250" type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/230/HRHLON_Rock_Royalty_Jr_Suite__3015_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite" height="233" width="350" type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/230/HRHLON_Rock_Royalty_Jr_Suite__3015_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite" height="320" width="480" type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/230/HRHLON_Rock_Royalty_Jr_Suite__3015_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Jr Suite" height="320" width="480" type="SUITE"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/230/HRHLON_Rock_Royalty_Jr_Suite__3015_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Double" height="167" width="250" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/101/HRHLON_Rock_Royalty_Double_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Double" height="233" width="350" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/101/HRHLON_Rock_Royalty_Double_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Double" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/101/HRHLON_Rock_Royalty_Double_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Double" height="320" width="480" type="ROOM"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/101/HRHLON_Rock_Royalty_Double_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Bathroom" height="167" width="250" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/114/HRHLON_Rock_Royalty_-_Bathroom_E.jpg"
+					sizeCode="S" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Bathroom" height="233" width="350" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/114/HRHLON_Rock_Royalty_-_Bathroom_H.jpg"
+					sizeCode="M" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Bathroom" height="320" width="480" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/114/HRHLON_Rock_Royalty_-_Bathroom_J.jpg"
+					sizeCode="L" />
+				<common_v52_0:MediaItem caption="HRHLON Rock Royalty Bathroom" height="320" width="480" type="Undefined"
+					url="https://travelport.leonardocontentcloud.com/imageRepo/7/0/145/674/114/HRHLON_Rock_Royalty_-_Bathroom_J.jpg"
+					sizeCode="E" />
+				<common_v52_0:MediaItem caption="Virtual Tour" type="RichMedia"
+					url="https://www.vfmii.com/exc/aspquery?command=invoke&amp;ids=42337&amp;ipid=RK5924"
+					icon="http://www.travelport.com/image/non_icon.jpg" />
+			</hotel:HotelPropertyWithMediaItems>
+		</hotel:HotelMediaLinksRsp>
+	</SOAP:Body>
+</SOAP:Envelope>
